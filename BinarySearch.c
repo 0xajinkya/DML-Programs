@@ -22,9 +22,9 @@ int main(){
     printf("\nEnter The Element To Search\n");
     scanf("\n%d", &s);
 
-    while(low < high){
+    while(low <= high){
         if(s < arr[(low + high)/2]){
-            high = (low+high)/2 + 1;
+            high = (low+high)/2 - 1;
         } else if(s > arr[(low+high)/2]){
             low = (low+high)/2 + 1;
         } else {
@@ -34,7 +34,7 @@ int main(){
         }
     }
 
-    if(f = 0){
+    if(f == 0){
         printf("\nElement Not Found\n");
     }
 
