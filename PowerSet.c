@@ -22,6 +22,7 @@ int main(){
         }
         printf("\n");
     }
+    
     printf("\n=============================================\n");
     printf("\n\tThe Power Set Is As Following\n");
 
